@@ -4,6 +4,6 @@
 
 <template>
   <main>
-    <h1 class="text-center"> You are here. </h1>
+    <h1 class="text-center text-30 py-50"> Hello, world </h1>
   </main>
 </template>
