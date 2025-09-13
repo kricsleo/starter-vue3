@@ -15,6 +15,9 @@ importers:
       '@iconify-json/carbon':
         specifier: ^1.2.13
         version: 1.2.13
+      '@total-typescript/tsconfig':
+        specifier: ^1.0.4
+        version: 1.0.4
       '@types/node':
         specifier: ^20.19.14
         version: 20.19.14
@@ -27,9 +30,6 @@ importers:
       '@vitejs/plugin-vue':
         specifier: ^6.0.1
         version: 6.0.1(vite@5.4.20(@types/node@20.19.14))(vue@3.5.21(typescript@5.9.2))
-      pnpm:
-        specifier: ^10.16.0
-        version: 10.16.0
       typescript:
         specifier: ^5.9.2
         version: 5.9.2
@@ -362,6 +362,9 @@ packages:
     resolution: {integrity: sha512-StxAO/8ts62KZVRAm4JZYq9+NqNsV7RvimNK+YM7ry//zebEH6meuugqW/P5OFUCjyQgui+9fUxT6d5NShvMvA==}
     cpu: [x64]
     os: [win32]
+
+  '@total-typescript/tsconfig@1.0.4':
+    resolution: {integrity: sha512-fO4ctMPGz1kOFOQ4RCPBRBfMy3gDn+pegUfrGyUFRMv/Rd0ZM3/SHH3hFCYG4u6bPLG8OlmOGcBLDexvyr3A5w==}
 
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
@@ -697,11 +700,6 @@ packages:
 
   pkg-types@2.3.0:
     resolution: {integrity: sha512-SIqCzDRg0s9npO5XQ3tNZioRY1uK06lA41ynBC1YmFTmnY6FjUjVt6s4LoADmwoig1qqD0oK8h1p/8mlMx8Oig==}
-
-  pnpm@10.16.0:
-    resolution: {integrity: sha512-gGbnsDQhe3AKmk27OgBQYdZBuhMKiZFSE6ELPKSRnBnAN77IBmr9xVm4ljX9uAaxbqZz8kaPuyiqv6E8U+P3aQ==}
-    engines: {node: '>=18.12'}
-    hasBin: true
 
   postcss@8.5.6:
     resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
@@ -1049,6 +1047,8 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.50.1':
     optional: true
+
+  '@total-typescript/tsconfig@1.0.4': {}
 
   '@types/estree@1.0.8': {}
 
@@ -1454,8 +1454,6 @@ snapshots:
       confbox: 0.2.2
       exsolve: 1.0.7
       pathe: 2.0.3
-
-  pnpm@10.16.0: {}
 
   postcss@8.5.6:
     dependencies:

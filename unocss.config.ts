@@ -1,13 +1,13 @@
 import {
   defineConfig,
   presetIcons,
-  presetUno,
+  presetWind4,
 } from 'unocss'
 import presetRem2Px from '@unocss/preset-rem-to-px'
 
 export default defineConfig({
   presets: [
-    presetUno(),
+    presetWind4(),
     presetIcons(),
     presetRem2Px({ baseFontSize: 4 }), // 1rem === 4px
   ],

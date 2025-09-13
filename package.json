@@ -13,11 +13,11 @@
   },
   "devDependencies": {
     "@iconify-json/carbon": "^1.2.13",
+    "@total-typescript/tsconfig": "^1.0.4",
     "@types/node": "^20.19.14",
     "@unocss/preset-rem-to-px": "^66.5.1",
     "@unocss/reset": "^66.5.1",
     "@vitejs/plugin-vue": "^6.0.1",
-    "pnpm": "^10.16.0",
     "typescript": "^5.9.2",
     "unocss": "^66.5.1",
     "vite": "^5.4.20"
