@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@iconify-json/carbon": "^1.2.15",
+    "@total-typescript/ts-reset": "^0.6.1",
     "@total-typescript/tsconfig": "^1.0.4",
     "@types/node": "^25.0.3",
     "@unocss/preset-rem-to-px": "^66.5.12",

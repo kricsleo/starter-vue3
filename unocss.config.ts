@@ -1,8 +1,4 @@
-import {
-  defineConfig,
-  presetIcons,
-  presetWind4,
-} from 'unocss'
+import { defineConfig, presetIcons, presetWind4 } from 'unocss'
 import presetRem2Px from '@unocss/preset-rem-to-px'
 
 export default defineConfig({
