@@ -5,7 +5,7 @@ import Unocss from 'unocss/vite'
 export default defineConfig({
   resolve: {
     alias: {
-      '~/': `/src/`,
+      '~/': '/src/',
     },
   },
   plugins: [
